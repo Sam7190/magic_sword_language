@@ -939,6 +939,7 @@ d = {
     'Adventurer 5': '冒险者 5',
     'Warrior': '战士', # An ally who is a warrior. The context is that the warrior comes from a different city—so the word before it will always be the name of the city the warrior belongs to (e.g. Scetcher Warrior)
     'No Allies in your Party': '您的队伍中没有同伴',
+    'Waiting for All Players to Load in...': '正在等待所有玩家加载完成……',
 }
 
 
