@@ -28,15 +28,15 @@ beggar = [
 
 donation_drive = [
     {'title': '衣物捐赠', 'required': "len({'Cloth', 'Old Cloth'}.intersection({var.itemCategories[item] for item in self.player.items}))>=1", 'items': "{'Cloth', 'Old Cloth'}",
-     "story": "你发现一群村民正在收集衣物，以分发给有需要的人。"},
+     "story": "你发现一群村民正在收集布料，以分发给有需要的人。"},
     {'title': '粮食配给捐赠', 'required': "len({'Food'}.intersection({var.itemCategories[item] for item in self.player.items}))>=1", 'items': "{'Food'}",
-     "story": "你发现一群村民正在收集粮食，以分发给有需要的人。最近的收成不佳，村民们需要任何你可以分享的东西。"},
+     "story": "你发现一群村民正在收集食物，以分发给有需要的人。最近的收成不佳，村民们需要任何你可以分享的东西。"},
     {'title': '书籍捐赠', 'required': "len({'Knowledge Books'}.intersection({var.itemCategories[item] for item in self.player.items}))>=1", 'items': "{'Knowledge Books'}",
-     "story": "在学校附近，一群学者和教师正在收集书籍，捐赠给无法购买的人们。"},
+     "story": "在学校附近，一群学者和教师正在收集书籍，捐赠给无法承担购买费用的孩童和村民。"},
     {'title': '工具制作捐赠', 'required': "len({'Smithing'}.intersection({var.itemCategories[item] for item in self.player.items}))>=1", 'items': "{'Smithing'}",
-     "story": "一群铁匠、矿工和锻造师正在举办工具制作捐赠活动。村里的旧工具供应已耗尽，急需矿石来制作新工具。"},
+     "story": "一群铁匠、矿工和锻造师正在举办工具制作捐赠活动。村里的旧工具供应已经消耗殆尽，急需矿石来制作更多新工具。"},
     {'title': '工艺捐赠', 'required': "len({'Crafting'}.intersection({var.itemCategories[item] for item in self.player.items}))>=1", 'items': "{'Crafting'}",
-     "story": "一群工艺师希望教孩子们如何手工制作。他们正在举办工艺捐赠活动，以寻求支持他们的计划。"}
+     "story": "一群工艺师希望教孩子们如何手工制作。他们正在举办手工制作捐赠活动，以寻求对他们计划的支持。"}
 ]
 
 escort = [
