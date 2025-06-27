@@ -957,11 +957,11 @@ for city in cities:
 for city in ['fodker', 'enfeir', 'zinzibar']:
     d[f'old {city} cloth'] = f"{d['old']} {city} {d['cloth']}"
 for m in ['Adept', 'Master']:
-    for in skills:
+    for  in skills:
         d[f"{m} {}"] = d[m] + ' ' + d[]
-    for in cbattr:
+    for  in cbattr:
         d[f"{m} {}"] = d[m] + ' ' + d[]
-    for in styles:
+    for  in styles:
         d[f"{m} {}"] = d[m] + ' ' + d[]
 
 iD = {d[i]: i for i in ['City', 'Board', 'Player Track']} # Create a reverse dictionary for select items.
