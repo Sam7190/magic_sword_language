@@ -950,19 +950,19 @@ levels = ['beginner', 'intermediate', 'advanced']
 cities = ['benfriege', 'demetry', 'enfeir', 'glaser', 'kubani', 'pafiz', 'scetcher', 'starfex', 'tamariza', 'tutalu', 'zinzibar']
 
 for l, s in [(level, skill) for level in levels for skill in skills]:
-    d[f'{l} {}'.lower()] = f"{d[l]} {d[]}"
+    d[f'{l} {s}'.lower()] = f"{d[l]} {d[s]}"
 for city in cities:
     d[f'{city} cloth'] = f"{city} {d['cloth']}"
     d[f'{city} Warrior'] = f"{city} {d['Warrior']}"
 for city in ['fodker', 'enfeir', 'zinzibar']:
     d[f'old {city} cloth'] = f"{d['old']} {city} {d['cloth']}"
 for m in ['Adept', 'Master']:
-    for  in skills:
-        d[f"{m} {}"] = d[m] + ' ' + d[]
-    for  in cbattr:
-        d[f"{m} {}"] = d[m] + ' ' + d[]
-    for  in styles:
-        d[f"{m} {}"] = d[m] + ' ' + d[]
+    for s in skills:
+        d[f"{m} {s}"] = d[m] + ' ' + d[s]
+    for s in cbattr:
+        d[f"{m} {s}"] = d[m] + ' ' + d[s]
+    for s in styles:
+        d[f"{m} {s}"] = d[m] + ' ' + d[s]
 
 iD = {d[i]: i for i in ['City', 'Board', 'Player Track']} # Create a reverse dictionary for select items.
 
