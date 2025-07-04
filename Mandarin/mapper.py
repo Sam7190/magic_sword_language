@@ -941,6 +941,7 @@ d = {
     'No Allies in your Party': '您的队伍中没有同伴',
     'Waiting for All Players to Load in...': '正在等待所有玩家加载完成……',
     'You found a small pouch of coins!': '你发现了一个装着金币的小袋子！',
+    'Found Coins': '发现金币',
 }
 
 
