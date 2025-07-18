@@ -727,7 +727,7 @@ d = {
     'Wilderness': '荒野', # Scary wilderness areas
     'Explore': '探索', # An invitation for the player to explore the map
     # The following messages are in context of probabilities (i.e. `Piercing damage` chance is 5 in 6.)
-    'Persuade master trainer': '尝试说服大师训练师',
+    'Persuade master trainer': '尝试说服大师级训练师',
     'Convincing Stealth Master': '尝试说服隐匿大师',
     'Craft acceptance': '尝试获得制作许可',
     'Finding worker': '寻找工人',
@@ -790,7 +790,7 @@ d = {
     'Dangerous Terrain': '危险地形',
     'Trap avoidance': '避免陷阱',
     'Sharp rock evasion': '躲避锋利的岩石',
-    'Thin ice evasion': '薄冰躲避',
+    'Thin ice evasion': '躲避薄冰',
     'Smith persuasion': '说服铁匠',
     'Level up': '升级',
     'Convince haggling master': '尝试说服砍价大师',
@@ -863,8 +863,8 @@ d = {
     'Purchase Market': '购买市场',
     'Locked Market': '市场已锁定',
     'Interact with Personal Market': '与个人市场互动',
-    "Adept Trainers": "专家级教练",
-    "Master Trainers": "大师级教练",
+    "Adept Trainers": "专家级训练师",
+    "Master Trainers": "大师级训练师",
     # Movement / Excavating / Gathering / Actions related
     'natural': '自然', # Used to describe naturally growing crops
     'unnatural': '非自然', # Used to describe unnaturally growing crops
@@ -914,9 +914,9 @@ d = {
     'Item Uses': '物品用途',
     'Already Wielded': '已装备该物品',
     'No use - needs to be returned.': '无用途——需要归还。',
-    'First unlock trainers here to learn from this book.': '请先解锁该城市的导师，才能学习此书内容。',
-    'You have not unlocked any trainers for this book yet. Gain Reputation or purchase a home in one of: ': '您尚未解锁任何可以教授此书的导师。请提升声望或在以下城市之一购置房产：',
-    'Take the book to a relevant trainer to learn. Trainers found in: ': '将书带到相关导师处学习。可在以下城市找到导师：',
+    'First unlock trainers here to learn from this book.': '请先解锁该城市的训练师，才能学习此书内容。',
+    'You have not unlocked any trainers for this book yet. Gain Reputation or purchase a home in one of: ': '您尚未解锁任何可以教授此书的训练师。请提升声望或在以下城市之一购置房产：',
+    'Take the book to a relevant trainer to learn. Trainers found in: ': '将书带到相关训练师处学习。可在以下城市找到训练师：',
     'Learn': '学习',
     "You cannot add any more items to the crafted piece.": '无法再向该工艺品添加物品。',
     'Level Up': '提升等级',
@@ -940,6 +940,8 @@ d = {
     'Warrior': '战士', # An ally who is a warrior. The context is that the warrior comes from a different city—so the word before it will always be the name of the city the warrior belongs to (e.g. Scetcher Warrior)
     'No Allies in your Party': '您的队伍中没有同伴',
     'Waiting for All Players to Load in...': '正在等待所有玩家加载完成……',
+    'You found a small pouch of coins!': '你发现了一个装着金币的小袋子！',
+    'Found Coins': '发现金币',
 }
 
 
